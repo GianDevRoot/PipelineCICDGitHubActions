@@ -1,3 +1,6 @@
+import sys
+sys.path.append('PipelineCICDGitHubActions')
+
 from flask_app import app
 
 def test_homepage():
