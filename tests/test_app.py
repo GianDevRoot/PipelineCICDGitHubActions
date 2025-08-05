@@ -1,4 +1,4 @@
-from PipelineCICDGitHubActions.flask_app import app
+from flask_app import app
 
 def test_homepage():
     """
