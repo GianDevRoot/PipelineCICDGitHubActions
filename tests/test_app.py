@@ -1,5 +1,8 @@
 import sys
-sys.path.append('PipelineCICDGitHubActions')
+import os
+
+# Añadir el directorio padre al path (para GitHub Actions)
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from flask_app import app
 
